@@ -9,5 +9,12 @@ export default createMuiTheme({
       main: "#77BE2A"
     }
   },
-  typography: {}
+  typography: {
+    htmlFontSize: 10,
+    fontFamily: "Roboto",
+    body1: {
+      fontSize: "1.7rem",
+      fontWeight: 600
+    }
+  }
 });
