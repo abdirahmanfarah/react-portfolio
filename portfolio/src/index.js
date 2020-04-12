@@ -3,14 +3,14 @@ import ReactDOM from "react-dom";
 import App from "./components/App";
 
 //Styles
-import Theme from "./mui/custom-theme";
+import theme from "./mui/custom-theme";
 import { MuiThemeProvider } from "@material-ui/core/styles";
 import CssBaseLine from "@material-ui/core/CssBaseline";
 import "./styles/index.css";
 import "./styles/App.css";
 
 ReactDOM.render(
-  <MuiThemeProvider theme={Theme}>
+  <MuiThemeProvider theme={theme}>
     <CssBaseLine />
     <App />
   </MuiThemeProvider>,

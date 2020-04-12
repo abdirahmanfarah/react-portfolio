@@ -16,15 +16,16 @@ import Typography from "@material-ui/core/Typography";
 const useStyles = makeStyles({
   root: {
     padding: "10px 0",
-    size: "md",
-    "& md": {
-      maxWidth: 300,
-      background: "teal"
-    }
+    "@media (min-width:1440px)": {
+      fontSize: "2.5rem",
+    },
   },
   media: {
-    height: 100
-  }
+    height: 100,
+    "@media (min-width:2500px)": {
+      height: 300,
+    },
+  },
 });
 const Project = () => {
   const classes = useStyles();
@@ -207,5 +208,5 @@ const Header = styled.h2`
 
 const Cards = styled.div`
   border: 1px solid black;
-  padding: 30px 20px;
+  padding: 25px 20px;
 `;
