@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import App from "./components/App";
+import { BrowserRouter as Router } from "react-router-dom";
 
 //Styles
 import theme from "./mui/custom-theme";
@@ -12,7 +13,9 @@ import "./styles/App.css";
 ReactDOM.render(
   <MuiThemeProvider theme={theme}>
     <CssBaseLine />
-    <App />
+    <Router>
+      <App />
+    </Router>
   </MuiThemeProvider>,
   document.getElementById("root")
 );
