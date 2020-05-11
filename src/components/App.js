@@ -25,25 +25,25 @@ const useStyles = makeStyles({
 });
 
 function App() {
-  const classes = useStyles();
-  const [anchorEl, setAnchorEl] = useState(null);
-  const handleClick = (event) => {
-    setAnchorEl(event.currentTarget);
-  };
+  // const classes = useStyles();
+  // const [anchorEl, setAnchorEl] = useState(null);
+  // const handleClick = (event) => {
+  //   setAnchorEl(event.currentTarget);
+  // };
 
-  const handleClose = () => {
-    setAnchorEl(null);
-  };
+  // const handleClose = () => {
+  //   setAnchorEl(null);
+  // };
 
-  const open = Boolean(anchorEl);
-  const id = open ? "simple-popover" : undefined;
+  // const open = Boolean(anchorEl);
+  // const id = open ? "simple-popover" : undefined;
 
   return (
     <div className="App">
-      <div className={classes.root}>
+      {/* <div className={classes.root}>
         <IconButton aria-describedby={id} onClick={handleClick}>
-          <MenuIcon className={classes.icon} color="primary" fontSize="large" />
-          {/* <Typography>Menu</Typography> */}
+          <MenuIcon className={classes.icon} color="primary" fontSize="large" /> */}
+      {/* <Typography>Menu</Typography>
         </IconButton>
         <Popover
           id={id}
@@ -75,7 +75,7 @@ function App() {
             </MenuItem>
           </MenuList>
         </Popover>
-      </div>
+      </div> */}
       <Switch>
         <Route exact path="/" component={Home} />
         <Route path="/projects" component={Project} />

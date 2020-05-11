@@ -4,6 +4,8 @@ import image from "../images/unnamed.jpg";
 import mission from "../images/mission.png";
 import life from "../images/Life.png";
 import sleep from "../images/sleep.png";
+import poke from "../images/poke.png";
+import { Link } from "react-router-dom";
 
 //Material Ui
 import { makeStyles } from "@material-ui/core/styles";
@@ -17,6 +19,7 @@ import CardActions from "@material-ui/core/CardActions";
 import CardContent from "@material-ui/core/CardContent";
 import CardMedia from "@material-ui/core/CardMedia";
 import Typography from "@material-ui/core/Typography";
+import ArrowBackIcon from "@material-ui/icons/ArrowBack";
 
 const useStyles = makeStyles({
   root: {
@@ -27,18 +30,28 @@ const useStyles = makeStyles({
     height: 120,
   },
   header: {
-    // color: "secondary",
-    padding: "20px 0",
+    marginBottom: "2%",
   },
 });
 const Project = (props) => {
   const classes = useStyles();
   return (
     <Box p={1} height="100vh">
-      <Typography variant="h3" color="secondary" className={classes.header}>
-        Projects
-      </Typography>
       <Container maxWidth="md">
+        <Grid container justify="flex-start">
+          <Button
+            component={Link}
+            to="/"
+            variant="outlined"
+            color="secondary"
+            size="medium"
+            startIcon={<ArrowBackIcon />}
+            className={classes.header}
+          >
+            {" "}
+            Home{" "}
+          </Button>
+        </Grid>
         <Cards>
           <Grid
             container
@@ -49,10 +62,7 @@ const Project = (props) => {
           >
             <Grid container item xs={10} sm={10} md={6} lg={6}>
               <Card className={classes.root}>
-                <CardActionArea
-                // target="_blank"
-                // href="https://github.com/abdirahmanfarah/mission-control-be"
-                >
+                <CardActionArea>
                   <CardMedia
                     className={classes.media}
                     image={mission}
@@ -94,10 +104,7 @@ const Project = (props) => {
 
             <Grid container item xs={10} sm={10} md={6} lg={6}>
               <Card className={classes.root}>
-                <CardActionArea
-                // target="_blank"
-                // href="https://life-gpa.now.sh"
-                >
+                <CardActionArea>
                   <CardMedia
                     className={classes.media}
                     image={life}
@@ -184,11 +191,11 @@ const Project = (props) => {
                 <CardActionArea>
                   <CardMedia
                     className={classes.media}
-                    image={image}
-                    title="Big Elephant"
+                    image={poke}
+                    title="Poke"
                   />
                   <CardContent>
-                    <Typography>Elephant</Typography>
+                    <Typography>Poke-E-Trade</Typography>
                     <Typography>
                       Lizards are a widespread group of squamate reptiles, with
                       over 6,000 species, ranging across all continents except
@@ -198,10 +205,22 @@ const Project = (props) => {
                 </CardActionArea>
                 <CardActions>
                   <Grid container justify="space-evenly">
-                    <Button variant="contained" color="primary" size="medium">
+                    <Button
+                      variant="contained"
+                      color="primary"
+                      size="medium"
+                      target="_blank"
+                      href="https://github.com/abdirahmanfarah/Front-End-CS-1/tree/abdi"
+                    >
                       Codebase
                     </Button>
-                    <Button variant="contained" color="primary" size="medium">
+                    <Button
+                      variant="contained"
+                      color="primary"
+                      size="medium"
+                      target="_blank"
+                      href="https://pok-e-trade.netlify.app/"
+                    >
                       Deployment
                     </Button>
                   </Grid>

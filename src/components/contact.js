@@ -7,16 +7,15 @@ import { makeStyles } from "@material-ui/core/styles";
 import Box from "@material-ui/core/Box";
 import Button from "@material-ui/core/Button";
 import Grid from "@material-ui/core/Grid";
-import IconButton from "@material-ui/core/IconButton";
 import GridList from "@material-ui/core/GridList";
 
 //Icons
+import IconButton from "@material-ui/core/IconButton";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import TwitterIcon from "@material-ui/icons/Twitter";
 import MailIcon from "@material-ui/icons/Mail";
 import { Typography } from "@material-ui/core";
-import seattle from "../assets/seattle.jpg";
 
 const useStyles = makeStyles({
   root: {
@@ -46,9 +45,9 @@ const Home = () => {
       <Box p={1} height="100vh">
         <Container maxWidth="md">
           <HeadContainer>
-            <Typography color="primary" variant="h4">
+            {/* <Typography color="primary" variant="h4">
               Shoot me an email or contact me through social media.
-            </Typography>
+            </Typography> */}
             <Contact>
               <Grid container spacing={12} justify="center">
                 <Grid item xs={2}>
