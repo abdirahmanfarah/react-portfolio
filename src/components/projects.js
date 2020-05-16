@@ -1,9 +1,8 @@
 import React from "react";
 import styled from "styled-components";
-import image from "../images/unnamed.jpg";
+import nasa from "../images/Nasa.png";
 import mission from "../images/mission.png";
 import life from "../images/Life.png";
-import sleep from "../images/sleep.png";
 import poke from "../images/poke.png";
 import { Link } from "react-router-dom";
 
@@ -24,10 +23,10 @@ import ArrowBackIcon from "@material-ui/icons/ArrowBack";
 const useStyles = makeStyles({
   root: {
     padding: "10px 0",
-    backgroundColor: "#bcaaa4",
+    backgroundColor: "#78909c",
   },
   media: {
-    height: 120,
+    height: 140,
   },
   header: {
     marginBottom: "2%",
@@ -149,11 +148,11 @@ const Project = (props) => {
                 <CardActionArea>
                   <CardMedia
                     className={classes.media}
-                    image={sleep}
-                    title="Sleep"
+                    image={nasa}
+                    title="Nasa"
                   />
                   <CardContent>
-                    <Typography>Sleep Tracker</Typography>
+                    <Typography>Nasa Photo of the Day</Typography>
                     <Typography>
                       Lizards are a widespread group of squamate reptiles, with
                       over 6,000 species, ranging across all continents except
@@ -168,7 +167,7 @@ const Project = (props) => {
                       color="primary"
                       size="medium"
                       target="_blank"
-                      href="https://github.com/abdirahmanfarah/Front-End"
+                      href="https://github.com/abdirahmanfarah/nasa-photo-of-the-day/tree/abdi"
                     >
                       Codebase
                     </Button>
@@ -177,7 +176,7 @@ const Project = (props) => {
                       color="primary"
                       size="medium"
                       target="_blank"
-                      href="https://sleeping-tracker.netlify.app/login"
+                      href="https://nasa-image-daily.netlify.app"
                     >
                       Deployment
                     </Button>
