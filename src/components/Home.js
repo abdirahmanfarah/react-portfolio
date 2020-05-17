@@ -51,24 +51,25 @@ const Home = () => {
             <Name>
               <Grid container display="flex" justify="flex-start">
                 <Typography variant="h3" color="primary" gutterBottom>
-                  Abdirahman Farah
+                  Hi, I'm Abdirahman Farah
                 </Typography>
               </Grid>
             </Name>
             <Grid container display="flex" justify="flex-start">
               <Intro>
                 <Typography variant="h4" color="secondary" gutterBottom>
-                  I am a{" "}
                   <Typical
                     steps={[
-                      "developer",
+                      "I am a full-stack developer 💻",
+                      1000,
+                      "I am a writer 📖",
+                      1000,
+                      "I am an adventurer 🚀",
+                      1000,
+                      "But above all....",
+                      1000,
+                      "I'm curious beyond measure. 😸",
                       3000,
-                      "writer",
-                      3000,
-                      "student",
-                      3000,
-                      "human.",
-                      5000,
                     ]}
                     loop={Infinity}
                     wrapper="b"
