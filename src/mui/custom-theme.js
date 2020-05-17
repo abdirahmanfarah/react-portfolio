@@ -20,10 +20,15 @@ const theme = createMuiTheme({
       fontSize: "7rem",
     },
     h3: {
+      fontFamily: "Balsamiq Sans",
+      fontSize: "6rem",
       "@media (max-width:600px)": {
         fontSize: "2.7rem",
       },
     },
+    // h4: {
+    //   fontFamily: "Balsamiq Sans",
+    // },
   },
 });
 

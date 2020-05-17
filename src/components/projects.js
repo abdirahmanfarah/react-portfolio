@@ -68,11 +68,14 @@ const Project = (props) => {
                     title="Mission Control"
                   />
                   <CardContent>
-                    <Typography>Mission Control</Typography>
+                    <Typography variant="h6">Mission Control</Typography>
                     <Typography variant="body1">
-                      Lizards are a widespread group of squamate reptiles, with
-                      over 6,000 species, ranging across all continents except
-                      Antarctica
+                      This project was a build-on comprimising of three groups.
+                      My specific group was tasked with implementing the
+                      labelling system a program manager would use to categorize
+                      the projects they were over-seeing. I designed and
+                      implemented the backend structure of this system using
+                      GraphQl, Prisma, Apollo, and Docker.
                     </Typography>
                   </CardContent>
                 </CardActionArea>
@@ -110,11 +113,14 @@ const Project = (props) => {
                     title="Life GPA"
                   />
                   <CardContent>
-                    <Typography>Life GPA</Typography>
+                    <Typography variant="h6">Life GPA</Typography>
                     <Typography>
-                      Lizards are a widespread group of squamate reptiles, with
-                      over 6,000 species, ranging across all continents except
-                      Antarctica
+                      Working remotely with 4 developers, we were tasked with
+                      building an app that could efficiently track the life
+                      habits of invididuals. I designed and built out the habits
+                      section the user would use if they wanted to add, update,
+                      delete, or merely view all their habits at once. Built
+                      with React and Redux mainly.
                     </Typography>
                   </CardContent>
                 </CardActionArea>
@@ -152,11 +158,12 @@ const Project = (props) => {
                     title="Nasa"
                   />
                   <CardContent>
-                    <Typography>Nasa Photo of the Day</Typography>
+                    <Typography variant="h6">Nasa Photo of the Day</Typography>
                     <Typography>
-                      Lizards are a widespread group of squamate reptiles, with
-                      over 6,000 species, ranging across all continents except
-                      Antarctica
+                      One of the first sites I built and one I'm still proud of.
+                      Everyday Nasa has a photo featured with a description and
+                      we were tasked with utilizing REST API to fetch the data
+                      and display it on our browsers. Built with React.
                     </Typography>
                   </CardContent>
                 </CardActionArea>
@@ -194,11 +201,12 @@ const Project = (props) => {
                     title="Poke"
                   />
                   <CardContent>
-                    <Typography>Poke-E-Trade</Typography>
+                    <Typography variant="h6">Poke-E-Trade</Typography>
                     <Typography>
-                      Lizards are a widespread group of squamate reptiles, with
-                      over 6,000 species, ranging across all continents except
-                      Antarctica
+                      My first attempt at making a game and an extremely fun
+                      project to have worked on. The hardest part about it was
+                      figuring out how to get Charmander, the character to move
+                      on the screen. Built with React.
                     </Typography>
                   </CardContent>
                 </CardActionArea>
@@ -236,7 +244,7 @@ const Project = (props) => {
 export default Project;
 
 const Cards = styled.div`
-  border: 1px solid black;
+  // border: 1px solid black;
   // padding: 25px 45px;
   // margin: auto;
 `;
