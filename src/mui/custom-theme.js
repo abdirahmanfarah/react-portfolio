@@ -21,14 +21,28 @@ const theme = createMuiTheme({
     },
     h3: {
       fontFamily: "Balsamiq Sans",
-      fontSize: "6rem",
+      fontSize: "5.5rem",
+      "@media (max-width:900px)": {
+        // color: "red",
+        fontSize: "4.7rem",
+      },
       "@media (max-width:600px)": {
-        fontSize: "2.7rem",
+        // color: "yellow",
+        fontSize: "3.4rem",
       },
     },
-    // h4: {
-    //   fontFamily: "Balsamiq Sans",
-    // },
+    h4: {
+      fontFamily: "Balsamiq Sans",
+      fontSize: "4.3rem",
+      "@media (max-width:900px)": {
+        // color: "blue",
+        fontSize: "3rem",
+      },
+      "@media (max-width:600px)": {
+        // color: "green",
+        fontSize: "2.5rem",
+      },
+    },
   },
 });
 
