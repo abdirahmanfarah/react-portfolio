@@ -140,7 +140,7 @@ const Project = (props) => {
                       color="primary"
                       size="medium"
                       target="_blank"
-                      href="https://life-gpa.now.sh"
+                      href="https://lifegpa-bw.github.io/heather-ui/index.html"
                     >
                       Deployment
                     </Button>
