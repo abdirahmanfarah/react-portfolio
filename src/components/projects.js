@@ -61,24 +61,24 @@ const Project = (props) => {
           >
             <Grid container item xs={10} sm={10} md={6} lg={6}>
               <Card className={classes.root}>
-                <CardActionArea>
-                  <CardMedia
-                    className={classes.media}
-                    image={mission}
-                    title="Mission Control"
-                  />
-                  <CardContent>
-                    <Typography variant="h6">Mission Control</Typography>
-                    <Typography variant="body1">
-                      This project was a build-on comprimising of three groups.
-                      My specific group was tasked with implementing the
-                      labelling system a program manager would use to categorize
-                      the projects they were over-seeing. I designed and
-                      implemented the backend structure of this system using
-                      GraphQl, Prisma, Apollo, and Docker.
-                    </Typography>
-                  </CardContent>
-                </CardActionArea>
+                {/* <CardActionArea> */}
+                <CardMedia
+                  className={classes.media}
+                  image={mission}
+                  title="Mission Control"
+                />
+                <CardContent>
+                  <Typography variant="h6">Mission Control</Typography>
+                  <Typography variant="body1">
+                    This project was a build-on comprising of three groups. My
+                    specific group was tasked with implementing the labeling
+                    system a program manager would use to categorize the
+                    projects they were overseeing. I designed and implemented
+                    the backend structure of this system using GraphQl, Prisma,
+                    Apollo, and Docker.
+                  </Typography>
+                </CardContent>
+                {/* </CardActionArea> */}
                 <CardActions>
                   <Grid container justify="space-evenly">
                     <Button
@@ -106,24 +106,24 @@ const Project = (props) => {
 
             <Grid container item xs={10} sm={10} md={6} lg={6}>
               <Card className={classes.root}>
-                <CardActionArea>
-                  <CardMedia
-                    className={classes.media}
-                    image={life}
-                    title="Life GPA"
-                  />
-                  <CardContent>
-                    <Typography variant="h6">Life GPA</Typography>
-                    <Typography>
-                      Working remotely with 4 developers, we were tasked with
-                      building an app that could efficiently track the life
-                      habits of invididuals. I designed and built out the habits
-                      section the user would use if they wanted to add, update,
-                      delete, or merely view all their habits at once. Built
-                      with React and Redux mainly.
-                    </Typography>
-                  </CardContent>
-                </CardActionArea>
+                {/* <CardActionArea> */}
+                <CardMedia
+                  className={classes.media}
+                  image={life}
+                  title="Life GPA"
+                />
+                <CardContent>
+                  <Typography variant="h6">Life GPA</Typography>
+                  <Typography>
+                    Working remotely with 4 developers, we were tasked with
+                    building an app that could efficiently track the life habits
+                    of invididuals. I designed and built out the habits section
+                    the user would use if they wanted to add, update, delete, or
+                    merely view all their habits at once. Built with React and
+                    Redux.
+                  </Typography>
+                </CardContent>
+                {/* </CardActionArea> */}
                 <CardActions>
                   <Grid container justify="space-evenly">
                     <Button
@@ -140,7 +140,7 @@ const Project = (props) => {
                       color="primary"
                       size="medium"
                       target="_blank"
-                      href="https://life-gpa.now.sh"
+                      href="https://lifegpa-bw.github.io/heather-ui/index.html"
                     >
                       Deployment
                     </Button>
@@ -151,22 +151,22 @@ const Project = (props) => {
 
             <Grid container item xs={10} sm={10} md={6} lg={6}>
               <Card className={classes.root}>
-                <CardActionArea>
-                  <CardMedia
-                    className={classes.media}
-                    image={nasa}
-                    title="Nasa"
-                  />
-                  <CardContent>
-                    <Typography variant="h6">Nasa Photo of the Day</Typography>
-                    <Typography>
-                      One of the first sites I built and one I'm still proud of.
-                      Everyday Nasa has a photo featured with a description and
-                      we were tasked with utilizing REST API to fetch the data
-                      and display it on our browsers. Built with React.
-                    </Typography>
-                  </CardContent>
-                </CardActionArea>
+                {/* <CardActionArea> */}
+                <CardMedia
+                  className={classes.media}
+                  image={nasa}
+                  title="Nasa"
+                />
+                <CardContent>
+                  <Typography variant="h6">Nasa Photo of the Day</Typography>
+                  <Typography>
+                    One of the first sites I built and one I'm still proud of.
+                    Everyday Nasa has a photo featured with a description and we
+                    were tasked with utilizing REST API to fetch the data and
+                    display it on our browsers. Built with React.
+                  </Typography>
+                </CardContent>
+                {/* </CardActionArea> */}
                 <CardActions>
                   <Grid container justify="space-evenly">
                     <Button
@@ -194,22 +194,22 @@ const Project = (props) => {
 
             <Grid container item xs={10} sm={10} md={6} lg={6}>
               <Card className={classes.root}>
-                <CardActionArea>
-                  <CardMedia
-                    className={classes.media}
-                    image={poke}
-                    title="Poke"
-                  />
-                  <CardContent>
-                    <Typography variant="h6">Poke-E-Trade</Typography>
-                    <Typography>
-                      My first attempt at making a game and an extremely fun
-                      project to have worked on. The hardest part about it was
-                      figuring out how to get Charmander, the character to move
-                      on the screen. Built with React.
-                    </Typography>
-                  </CardContent>
-                </CardActionArea>
+                {/* <CardActionArea> */}
+                <CardMedia
+                  className={classes.media}
+                  image={poke}
+                  title="Poke"
+                />
+                <CardContent>
+                  <Typography variant="h6">Poke-E-Trade</Typography>
+                  <Typography>
+                    My first attempt at making a game and an extremely fun
+                    project to have worked on. The hardest part about it was
+                    figuring out how to get Charmander, the character, to move
+                    on the screen. Built with React.
+                  </Typography>
+                </CardContent>
+                {/* </CardActionArea> */}
                 <CardActions>
                   <Grid container justify="space-evenly">
                     <Button
